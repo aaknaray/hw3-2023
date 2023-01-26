@@ -2,7 +2,9 @@ body{
     font-family: Arial, Verdana;
     background-color: #000000;
     color: #FFFFFF;
-    margin: 20 px 20 px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 h1{
@@ -12,13 +14,10 @@ h1{
 }
 
 h2{
-    color: #a9a9a9;
+    color: #0D0D0D;
     font-size: 30px;
 }
 
-div h2{
-    color: #000000;
-}
 
 p{
     font-size: 24px;
@@ -31,7 +30,7 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 10px dotted #FFFFFF;
+    border: 10px dashed #FFFFFF;
 }
 
 div{
@@ -43,10 +42,10 @@ div{
 .introduction{
     border-radius: 15px;
     margin-top: 15px;
-    line-height: 200%;
+    line-height: 2;
 }
 
-.red{
+div.red{
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
@@ -54,21 +53,24 @@ div{
     border-left: 5px;
 }
 
-.blue{
+div.blue{
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
+    border-right: 5px;
+    border-top: 2px;
+    color: #c4c4c4;
 }
 
 .blue h2{
     color: #c4c4c4;
 }
 
-.blue p{
+div.blue p{
     color: #c4c4c4
 }
 
-.yellow{
+div.yellow{
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
@@ -80,7 +82,7 @@ div{
     color:#707070;
 }
 
-.green{
+div.green{
     background-color: #378805;
     text-align: left;
     margin-right: 50px;
@@ -94,7 +96,7 @@ footer{
 }
 
 footer p{
-    text-size-adjust: 20px;
+    font-size: 20px;
     text-align: right;
     padding-top: 15px;
     padding-right: 15px;
